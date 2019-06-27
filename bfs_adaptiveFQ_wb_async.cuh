@@ -15,7 +15,7 @@
 #include "prefix_sum1.cuh"
 #include "swap.cuh"
 #include "workload_gap.cuh"
-#include "workload_distribution.cuh"
+//#include "workload_distribution.cuh"
 #include <fstream>
 //#include "bfs_workload_optimize1.cuh"
 
