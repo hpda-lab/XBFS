@@ -50,7 +50,7 @@ The overall code structure of this project is:
 
 - swap.cuh: Function definition of swap module.
 
-- bfs_adaptiveFQ_wb_async.cuh: run XBFS.
+- bfs_adaptiveFQ_wb_async.cuh: runs XBFS.
 
  -bfs_single_scan.cuh: BFS single scan codes on frontier queue generation.
 
@@ -58,9 +58,7 @@ The overall code structure of this project is:
 
  - prefix_sum1.cuh: It consists of prefix-sum modules used in XBFS.
 
-- workload_distribution.cuh: 
-
-- workload_gap.cuh: 
+- workload_gap.cuh: Module to find gap between the workloads.
 
 - wtime.h: timing.
 
