@@ -51,8 +51,7 @@ The overall code structure of this project is:
 - swap.cuh: Function definition of swap module.
 
 - bfs_adaptiveFQ_wb_async.cuh: runs XBFS.
-
- -bfs_single_scan.cuh: BFS single scan codes on frontier queue generation.
+- bfs_single_scan.cuh: BFS single scan codes on frontier queue generation.
 
  - bfs_TD_scan_free.cuh: BFS scan free codes on frontier queue generation.
 
