@@ -1,22 +1,22 @@
 # XBFS
---
+---
 Software (tested)
 -----
 g++ 5.4.0, CUDA 9.1,10.0
 Compilation flag: -O3
 
---
+---
 Hardware (tested)
 ------
 K80, P6000, Titan Xp, V100 (tested)
 
---
+---
 Compile
 -----
 
 make
 
---
+---
 Execute
 ------
 Type: "./bfs" it will show you what is needed.
@@ -25,7 +25,7 @@ Tips: It needs a CSR formated graph (beg file and csr file).
 
 You could use the code from "tuple_text_to_bin.binary_csr" folder to convert a edge list (text formated) graph into CSR files (binary), e.g., if you have a text file called "test.txt", it will convert it into "test.txt_beg_pos.bin" and "test.txt_csr.bin". You will need these two files to run XBFS.
 
---
+---
 Converter: edge tuples to CSR
 ----
 - Compile: make
@@ -39,7 +39,7 @@ Converter: edge tuples to CSR
 - You will get *soc-orkut.mtx_beg_pos.bin* and *soc-orkut.mtx_csr.bin*. 
 - You could use these two files to run enterprise.
 
---
+---
 Code specification
 ---------
 The overall code structure of this project is:
@@ -66,7 +66,7 @@ The overall code structure of this project is:
 
 **Should you have any questions about this project, please contact us by hpda.lab@gmail.com.**
 
---
+---
 Reference
 -------
 [HPDC '19] XBFS: eXploring Runtime Optimizations for Breadth-First Search on GPUs 
